@@ -1,4 +1,4 @@
-if(Array.prototype.$flatMap) {
+if(!Array.prototype.$flatMap) {
     Array.prototype.$flatMap = function(callback) {
         return this
             .map(callback)
